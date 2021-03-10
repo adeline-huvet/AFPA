@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.maison.css">
+    <title>Document</title>
+    <script defer src="app.maison.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Liste des films</h1>
+        </header>
+        <section id="alertmsg">
+            <!-- Pop-up alert qui s'affichera ici -->
+        </section>
+        <button id="submit">Ajouter</button>
+        <form id="formulaire" action="">
+            <input type="text" id="addtitre" name="titre" placeholder="Ajoutez un titre">
+            <input type="number" id=addannee name="annee" placeholder="Ajoutez une année">
+            <input type="text" id=addauteur name="auteur" placeholder="Ajouter un auteur">
+            <button id="submitmovie">Ajouter</button>
+        </form>
+        <!-- <button type="submit" id="submit">Ajouter</button> -->
+        <section id="selector">
+            <select name="selectorFiltre" id="selectorFiltre">
+                <option value="">Trier par</option>
+                <option value="titre">Titre</option>
+                <option value="annee">Année</option>
+            </select>
+        </section>
+
+        <div id="table">
+            <ul id="titre">Titre</ul>
+            <ul id="annee">Année</ul>
+            <ul id="auteur">Auteur</ul>
+            <ul id="supprimez">Supprimez</ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

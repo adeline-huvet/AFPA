@@ -1,0 +1,74 @@
+body{
+    background-color: rgba(0, 0, 0, 0.781);
+    color: white;
+}
+
+h1{
+    color: rgba(128, 128, 128, 0.137)
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#submit{
+    height:30px ;
+    width: 80px;
+    background-color: rgb(27, 102, 200);
+    border-radius:10px
+}
+
+#formulaire{
+    visibility: hidden;
+}
+
+#addtitre {
+    height:20px ;
+    width: 300px;
+}
+
+#addannee{
+    height:20px ;
+    width: 300px;
+}
+
+#addauteur {
+    height:20px ;
+    width: 300px;
+}
+
+#submitmovie{
+    height:30px ;
+    width: 80px;
+    background-color: rgb(27, 102, 200);
+    border-radius:10px
+}
+#table{
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+ul, li {
+    list-style: none;
+    color: rgb(80, 78, 78)
+    
+}
+
+li {
+    width: 200px;
+    height: 40px;
+    color: white;
+
+}
+
+.delete{
+    border-radius: 10px;
+    height: 20px;
+    background-color: rgb(233, 42, 42);
+    
+}
